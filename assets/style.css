@@ -32,4 +32,6 @@ footer{
 main{
   max-width: 1200px;
   margin: 150px auto;
+  visibility: visible;
 }
+
