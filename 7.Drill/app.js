@@ -62,6 +62,10 @@ body.addEventListener("keyup", (e)=>{
             }
         }
     }
+    else if(e.key=="d"){
+        const clone = important.cloneNode(true);
+        ul.appendChild(clone)
+    }
 })
 
 //////////////////////////////////////////////////////////
